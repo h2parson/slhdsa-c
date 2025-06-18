@@ -1,0 +1,126 @@
+# SPDX-License-Identifier: Apache-2.0 OR ISC OR MIT
+
+name: SLH-DSA
+type: signature
+implementations:
+  - name: SLH-DSA-PURE-SHA2-128s
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 7856
+  - name: SLH-DSA-PURE-SHA2-128f
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 17088
+  - name: SLH-DSA-PURE-SHA2-192s
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 16224
+  - name: SLH-DSA-PURE-SHA2-192f
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 35664
+  - name: SLH-DSA-PURE-SHA2-256s
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 29792
+  - name: SLH-DSA-PURE-SHA2-256f
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 49856
+  - name: SLH-DSA-PURE-SHAKE-128s
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 7856
+  - name: SLH-DSA-PURE-SHAKE-128f
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 17088
+  - name: SLH-DSA-PURE-SHAKE-192s
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 16224
+  - name: SLH-DSA-PURE-SHAKE-192f
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 35664
+  - name: SLH-DSA-PURE-SHAKE-256s
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 29792
+  - name: SLH-DSA-PURE-SHAKE-256f
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 49856
+  
+  - name: SLH-DSA-SHA2-128-PREHASH-SHA2-128s
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 7856
+  - name: SLH-DSA-SHA2-128-PREHASH-SHA2-128f
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 17088
+  - name: SLH-DSA-SHA2-128-PREHASH-SHA2-192s
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 16224
+  - name: SLH-DSA-SHA2-128-PREHASH-SHA2-192f
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 35664
+  - name: SLH-DSA-SHA2-128-PREHASH-SHA2-256s
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 29792
+  - name: SLH-DSA-SHA2-128-PREHASH-SHA2-256f
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 49856
+  - name: SLH-DSA-SHA2-128-PREHASH-SHAKE-128s
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 7856
+  - name: SLH-DSA-SHA2-128-PREHASH-SHAKE-128f
+    claimed-nist-level: 1
+    length-public-key: 32
+    length-secret-key: 64
+    length-signature: 17088
+  - name: SLH-DSA-SHA2-128-PREHASH-SHAKE-192s
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 16224
+  - name: SLH-DSA-SHA2-128-PREHASH-SHAKE-192f
+    claimed-nist-level: 1
+    length-public-key: 48
+    length-secret-key: 96
+    length-signature: 35664
+  - name: SLH-DSA-SHA2-128-PREHASH-SHAKE-256s
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 29792
+  - name: SLH-DSA-SHA2-128-PREHASH-SHAKE-256f
+    claimed-nist-level: 1
+    length-public-key: 64
+    length-secret-key: 128
+    length-signature: 49856
