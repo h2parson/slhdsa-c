@@ -29,3 +29,35 @@ paramSets:
     pkSize: 64
     skSize: 128
     sigSize: 49856
+
+hashAlgs:
+  -
+    name: sha2
+  -
+    name: shake
+
+prehashHashAlgs:
+  -
+    name: sha2-224
+  -
+    name: sha2-256
+  -
+    name: sha2-384
+  -
+    name: sha2-512
+  -
+    name: sha2-512/224
+  -
+    name: sha2-512/256
+  -
+    name: sha3-224
+  -
+    name: sha3-256
+  -
+    name: sha3-384
+  -
+    name: sha3-512
+  -
+    name: shake-128
+  -
+    name: shake-256
