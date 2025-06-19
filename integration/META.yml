@@ -38,26 +38,26 @@ hashAlgs:
 
 prehashHashAlgs:
   -
-    name: sha2-224
+    name: sha2_224
   -
-    name: sha2-256
+    name: sha2_256
   -
-    name: sha2-384
+    name: sha2_384
   -
-    name: sha2-512
+    name: sha2_512
   -
-    name: sha2-512/224
+    name: sha2_512_224
   -
-    name: sha2-512/256
+    name: sha2_512_256
   -
-    name: sha3-224
+    name: sha3_224
   -
-    name: sha3-256
+    name: sha3_256
   -
-    name: sha3-384
+    name: sha3_384
   -
-    name: sha3-512
+    name: sha3_512
   -
-    name: shake-128
+    name: shake_128
   -
-    name: shake-256
+    name: shake_256
