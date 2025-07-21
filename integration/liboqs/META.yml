@@ -1,6 +1,5 @@
 algDetails:
   algVersion: FIPS205
-  claimedNISTLevel: 1
   eufCMA: 'true'
   sufCMA: 'false'
 
@@ -30,31 +29,37 @@ paramSets:
     pkSize: 32
     skSize: 64
     sigSize: 7856
+    claimedNISTLevel: 1
   -
     name: 128f
     pkSize: 32
     skSize: 64
     sigSize: 17088
+    claimedNISTLevel: 1
   -  
     name: 192s
     pkSize: 48
     skSize: 96
     sigSize: 16224
+    claimedNISTLevel: 3
   -  
     name: 192f
     pkSize: 48
     skSize: 96
     sigSize: 35664
+    claimedNISTLevel: 3
   -  
     name: 256s
     pkSize: 64
     skSize: 128
     sigSize: 29792
+    claimedNISTLevel: 5
   -  
     name: 256f
     pkSize: 64
     skSize: 128
     sigSize: 49856
+    claimedNISTLevel: 5
 
 hashAlgs:
   -
