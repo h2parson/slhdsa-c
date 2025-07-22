@@ -77,9 +77,9 @@ prehashHashAlgs:
   -
     name: sha2_512
   -
-    name: sha2_512_224
+    name: sha2_512/224
   -
-    name: sha2_512_256
+    name: sha2_512/256
   -
     name: sha3_224
   -
