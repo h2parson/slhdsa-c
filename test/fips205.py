@@ -655,11 +655,11 @@ class SLH_DSA:
             oid = bytes([   0x06, 0x09, 0x60, 0x86, 0x48, 0x01, 0x65, 0x03,
                             0x04, 0x02, 0x04])
             phm = SHA224.new(m).digest()
-        elif ph == 'SHA2-512-224':
+        elif ph == 'SHA2-512/224':
             oid = bytes([   0x06, 0x09, 0x60, 0x86, 0x48, 0x01, 0x65, 0x03,
                             0x04, 0x02, 0x05])
             phm = SHA512.new(m,truncate="224").digest()
-        elif ph == 'SHA2-512-256':
+        elif ph == 'SHA2-512/256':
             oid = bytes([   0x06, 0x09, 0x60, 0x86, 0x48, 0x01, 0x65, 0x03,
                             0x04, 0x02, 0x06])
             phm = SHA512.new(m,truncate="256").digest()
