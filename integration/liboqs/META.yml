@@ -21,6 +21,7 @@ sources:
   slh_sha2.c
   slh_shake.c
   slh_var.h
+  slh_sys.h
   cbmc.h
 
 paramSets:
